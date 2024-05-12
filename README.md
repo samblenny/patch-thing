@@ -19,6 +19,8 @@ are not compatible with EuroRack CV/Gate signals.*
 
 ## Notes
 
+- [04 MIDI CC](notes/04_midi_cc/README.md)
+
 - [03 Bill of Materials](notes/03_bom/README.md)
 
 - [02 Diode Clamp Circuits](notes/02_diode_clamp_circuits/README.md)
