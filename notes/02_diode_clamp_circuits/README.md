@@ -72,7 +72,7 @@ approximately -0.25V to +3.39V, with clamping currents of less than 9mA.
 
 ![Diode clamp DC sweep simulation with min VOUT cursor](dual-1K-min-VOUT.png)
 
-![Diode clamp DC sweep simulation with max VOUT cursor](dual-1K-min-VOUT.png)
+![Diode clamp DC sweep simulation with max VOUT cursor](dual-1K-max-VOUT.png)
 
 
 ## Links:
