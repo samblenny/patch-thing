@@ -10,7 +10,7 @@ Goals:
 
 2. Avoid IO driver over-current damage due to shorting 3.5mm plug tip to sleeve
 
-3. Avoid damage from electro-static discharge (ESD) by touching 3.5mm plugs
+3. Avoid damage from electrostatic discharge (ESD) by touching 3.5mm plugs
 
 
 Motivation:
