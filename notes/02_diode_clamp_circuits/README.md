@@ -44,8 +44,11 @@ Cautions:
 
 I made this schematic in KiCad and simulated it with ngspice to get a rough
 idea of how a diode clamp circuit might perform with EuroRack-level input and
-connected to a 3.3V CMOS output. I used 1N5817 Schottky diodes, 1 kΩ current
-limiting resistors, and a 10 kΩ pull-down resistor.
+the output connected to a 3.3V CMOS GPIO pin. I used 1N5817 Schottky diodes,
+1 kΩ current limiting resistors, and a 10 kΩ pull-down resistor.
+
+I got the 1N5817 Spice model from the SMC Diodes website at
+[Products &gt; Discrete &gt; Schottky-Rectifiers](https://www.smc-diodes.com/Products/Discrete/Schottky-Rectifiers).
 
 The design goals here are:
 
