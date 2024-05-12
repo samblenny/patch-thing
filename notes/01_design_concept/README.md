@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: CC-BY-SA-4.0 OR MIT -->
 <!-- SPDX-FileCopyrightText: Copyright 2024 Sam Blenny -->
-# Design Concept
+# 01 Design Concept
 
 Patch-thing is a MIDI controller providing tactile signal routing control for
 software synths using patch cables and a grid of 3.5mm jack patch points.

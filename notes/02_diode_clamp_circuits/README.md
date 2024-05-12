@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: CC-BY-SA-4.0 OR MIT -->
 <!-- SPDX-FileCopyrightText: Copyright 2024 Sam Blenny -->
-# Diode Clamp Circuits
+# 02 Diode Clamp Circuits
 
 
 Goals:
