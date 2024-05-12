@@ -2,6 +2,8 @@
 <!-- SPDX-FileCopyrightText: Copyright 2024 Sam Blenny -->
 # patch-thing
 
+[**WORK IN PROGRESS: this is not a real thing yet**]
+
 A tactile patch-panel style MIDI controller project for software synths.
 
 Patch-thing uses a matrix-scan algorithm to map cable connections. When you
