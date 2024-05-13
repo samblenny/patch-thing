@@ -40,8 +40,6 @@ semi-modular synths?
 
 6. Brain: CircuitPython board with enough GPIO pins for each 3.5mm jack
 
-7. Protection Circuit: Diode clamps to protect GPIO from overvolt/undervolt
-
 
 ## Software
 
