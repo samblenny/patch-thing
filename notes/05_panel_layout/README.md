@@ -23,3 +23,11 @@ board will go on the bottom. The USB cable will go through one of the sides.
 ## T-190 box with panel-mount USB-C to Micro-B cable
 
 ![Open steel box with panel mount USB-C cable](box-with-panel-mount-USB.jpeg)
+
+
+## T-190 box with jacks, buttons, tape, and patch cables
+
+For this one, I put tape between the rows of 3.5mm jacks and added buttons on
+the right side. The cables are 15cm (green) and 25cm (blue) Nazca Noodles.
+
+![Closed steel box with arrangement of components and cables](box-with-noodles.jpeg)
