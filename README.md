@@ -21,6 +21,8 @@ are not compatible with EuroRack CV/Gate signals.*
 
 ## Notes
 
+- [05 Panel Layout](notes/05_panel_layout/README.md)
+
 - [04 MIDI CC](notes/04_midi_cc/README.md)
 
 - [03 Bill of Materials](notes/03_bom/README.md)
