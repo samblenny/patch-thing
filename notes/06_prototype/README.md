@@ -26,6 +26,43 @@ switches and knobs.
 
 ![Breadboard with Feather M4 Express, 10k resistors, and wires](breadboard-feather-M4-10k.jpeg)
 
+The point of this circuit layout was to make an area on the right side of the
+board where I can use flying wires (DuPont wires) to simulate a grid of patch
+points using 3.5mm jacks.
+
+I connected 5 IO pins on each side of the Adafruit Feather M4 Express board
+using 10kΩ resistors for a little protection against ESD and accidental shorts.
+The piece of black hookup wire on row 24 of the breadboard is to mark the left
+edge of the patch panel area.
+
+This is how I've connected the Feather M4 pins:
+
+| M4 Pin | Breadboard row | Comment                 |
+| ------ | -------------- | ----------------------- |
+|     A0 | -       | use for synthio or knob? |
+|     A1 | -       | use for synthio or knob? |
+|     A2 | -       | use for knob/button/switch? |
+|     A3 | -       | use for knob/button/switch? |
+|     A4 | -       | use for knob/button/switch? |
+|     A5 | -       | use for knob/button/switch? |
+|    SCK | -       | use for additional patch point? |
+|     MO | 29, a-e | Bottom Right of patch panel area |
+|     MI | 28, a-e | |
+|     RX | 27, a-e | |
+|     TX | 26, a-e | |
+|     D4 | 25, a-e | Bottom Left of patch panel area |
+|    SDA | -       | use for I2C GPIO or ADC expanders? |
+|    SCL | -       | use for I2C GPIO or ADC expanders? |
+|      5 | 25, f-j | Top Left of patch panel area | |
+|      6 | 26, f-j | |
+|      9 | 27, f-j | |
+|     10 | 28, f-j | |
+|     11 | 29, f-j | Top Right of patch panel area |
+|     12 | -       | use for additional patch point? |
+|     13 | -       | use for indicator LED? |
+
+
+
 
 ## CircuitPython Code
 
