@@ -21,13 +21,19 @@ are not compatible with EuroRack CV/Gate signals.*
 
 ## Notes
 
-- [05 Panel Layout](notes/05_panel_layout/README.md)
+- [06 Prototype](notes/06_prototype/README.md) &mdash;
+  breadboard -&gt; CircuitPython -&gt; MIDI CC -&gt; software synth patch
 
-- [04 MIDI CC](notes/04_midi_cc/README.md)
+- [05 Panel Layout](notes/05_panel_layout/README.md) &mdash;
+  test photos for jack and button layout on front panel
+
+- [04 MIDI CC](notes/04_midi_cc/README.md) &mdash;
+  plan which MIDI CC control numbers to use
 
 - [03 Bill of Materials](notes/03_bom/README.md)
 
-- [02 Diode Clamp Circuits](notes/02_diode_clamp_circuits/README.md)
+- [02 Diode Clamp Circuits](notes/02_diode_clamp_circuits/README.md) &mdash;
+  thinking about ESD protection for patch point signal IO pins
 
 - [01 Design Concept](notes/01_design_concept/README.md)
 
