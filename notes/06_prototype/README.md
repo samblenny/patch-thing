@@ -74,7 +74,7 @@ See also:
 
 ### Update CircuitPython
 
-CAUTION; Following these instructions will erase any existing code on your
+CAUTION: Following these instructions will erase any existing code on your
 Feather M4 Express.
 
 These path and shell commands below are for Terminal on macOS.
@@ -97,7 +97,7 @@ These path and shell commands below are for Terminal on macOS.
 4. Expand the library bundle:
 
    ```
-   $ cd Downloads
+   $ cd ~/Downloads
    $ unzip adafruit-circuitpython-bundle-9.x-mpy-20240514
    ```
 
@@ -105,7 +105,7 @@ These path and shell commands below are for Terminal on macOS.
 
    ```
    $ mkdir -p /Volumes/CIRCUITPY/lib
-   $ cd /Downloads/adafruit-circuitpython-bundle-9.x-mpy-20240514
+   $ cd ~/Downloads/adafruit-circuitpython-bundle-9.x-mpy-20240514
    $ cp -r lib/adafruit_midi /Volumes/CIRCUITPY/lib/
    ```
 
@@ -114,7 +114,7 @@ These path and shell commands below are for Terminal on macOS.
 
 To enable USB MIDI on the Feather M4 Express, put this in [boot.py](boot.py):
 
-```
+```python3
 import usb_hid, usb_midi
 
 usb_hid.disable()
@@ -122,7 +122,7 @@ usb_midi.enable()
 ```
 
 Then, put this in [code.py](code.py):
-```
+```python3
 from board import D4, D5, D6, D9, D10, D11, TX, RX, MISO, MOSI
 from digitalio import DigitalInOut, DriveMode, Pull
 import gc, time, usb_midi
@@ -289,4 +289,4 @@ the OR of all the CC values.
 
 2. [adafruit_midi readthedocs](https://docs.circuitpython.org/projects/midi/en/stable/api.html)
 
-3. [digitalio](https://docs.circuitpython.org/en/9.0.x/shared-bindings/digitalio/index.html)
+3. [digitalio readthedocs](https://docs.circuitpython.org/en/9.0.x/shared-bindings/digitalio/index.html)
